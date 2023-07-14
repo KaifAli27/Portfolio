@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import React, { useState, useEffect } from "react";
 
 export const DropDownContainer = styled.div`
   position: absolute;
@@ -74,3 +75,18 @@ export const DropDownItemDesc = styled.p`
   line-height: 22px;
   text-align: start;
 `;
+
+const Header1 = () => {
+  const [scrollPosition, setScrollPosition] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.scrollY;
+    setScrollPosition(position);
+  };
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  });
+};

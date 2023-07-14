@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
+import { Link as ScrollLink } from "react-scroll";
 
 import {
   Container,
@@ -31,19 +32,38 @@ const Header = () => (
       </Div1>
       <Div2>
         <li>
-          <Link href="#about">
+          <ScrollLink
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            duration={100}
+          >
             <NavLink>About Me</NavLink>
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          <Link href="#projects">
+          <ScrollLink
+            //activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            duration={200}
+            offset={50}
+          >
             <NavLink>Projects</NavLink>
-          </Link>
+          </ScrollLink>
         </li>
         <li>
-          <Link href="#tech">
+          <ScrollLink
+            activeClass="active"
+            to="tech"
+            spy={true}
+            smooth={true}
+            duration={100}
+          >
             <NavLink>Technologies</NavLink>
-          </Link>
+          </ScrollLink>
         </li>
       </Div2>
       <Div3>
