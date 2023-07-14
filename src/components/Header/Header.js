@@ -14,6 +14,8 @@ import {
   Span,
 } from "./HeaderStyles";
 
+const Name12 = "< Kaif Ali />";
+
 const Header = () => (
   <div>
     <Container>

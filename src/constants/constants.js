@@ -42,9 +42,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  { year: "Sept 2020", text: "Software Engineering @ Carleton University " },
+  { year: "May 2021", text: "Data Engineering Intern @ Knockri" },
+  { year: "May 2022", text: "Software Developer Intern @ Heady" },
+  { year: "May 2023", text: "Software Developer Intern @ SkyTrac" },
+  { year: "2024", text: "..." },
+  { year: "Dec 2025", text: "Expected Graduation (B.Eng)" },
 ];
