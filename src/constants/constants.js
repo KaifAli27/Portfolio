@@ -23,7 +23,7 @@ export const projects = [
     title: "Project 3",
     description:
       "This is a code repository for the corresponding Application This is a code repository for the corresponding Application This is a code repository for the corresponding Application This is a code repository for the corresponding Application",
-    image: "/images/2.jpg",
+    image: "/images/3.jpg",
     tags: ["React", "WebRTC"],
     source: "https://google.com",
     visit: "https://google.com",
@@ -33,7 +33,7 @@ export const projects = [
     title: "Project 4",
     description:
       "This is a code repository for the corresponding Application This is a code repository for the corresponding Application This is a code repository for the corresponding ApplicationThis is a code repository for the corresponding Application",
-    image: "/images/2.jpg",
+    image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://google.com",
     visit: "https://google.com",
