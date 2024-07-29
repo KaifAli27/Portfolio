@@ -1,4 +1,5 @@
 import React from "react";
+import { DiDatabase, DiReact, DiGit } from "react-icons/di";
 
 import {
   BlogCard,
@@ -34,14 +35,15 @@ const Projects = () => (
           </TitleContent>
           <CardInfo>{project.description}</CardInfo>
           <div>
-            <TitleContent>Stack</TitleContent>
+            <TitleContent></TitleContent>
             <TagList>
+              
               <Tag key={project.id}> {project.tags} </Tag>
             </TagList>
           </div>
           <UtilityList>
-            <ExternalLinks href={project.vist}>Code</ExternalLinks>
-            <ExternalLinks href={project.source}>Source</ExternalLinks>
+            <ExternalLinks href={project.visit}>Code</ExternalLinks>
+            <ExternalLinks href={project.source}>Demo</ExternalLinks>
           </UtilityList>
         </BlogCard>
       ))}

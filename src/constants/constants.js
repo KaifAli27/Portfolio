@@ -1,12 +1,14 @@
+import { DiCss3, DiReact, DiHtml5  } from "react-icons/di";
+
 export const projects = [
   {
-    title: "Project 1",
+    title: "Cryto Tracker",
     description:
-      "This is a code repository for the corresponding Application This is a code repository for the corresponding Application This is a code repository for the corresponding ApplicationThis is a code repository for the corresponding ApplicationThis is a code repository for the corresponding Application  ",
-    image: "/images/2.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
+      "This is a CryptoPlace Crypto Tracker built using CoinGecko's API for real-time crypto analytics. The top 20 Cryptos are presented in a nice UI table with a search bar to navigate through over 250 Cryptos. The currency can be changed via the drop down menu in the navbar. Upon clicking a Crypto, a graph will be displayed along with other statistics using google-graphs    ",
+    image: "/images/cryptoTracker.jpg",
+    tags: [<DiReact size="5rem" color="#15A3C7" />, "  " , <DiCss3 size="5rem" color="#15A3C7"/>,"      ", <DiHtml5 size="5rem" color="#FF5733" />],
+    source: "https://kaifscryptoplace.netlify.app/",
+    visit: "https://github.com/KaifAli27/Crypto-Tracker",
     id: 0,
   },
   {

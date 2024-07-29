@@ -74,7 +74,7 @@ const Timeline = () => {
       <br />
 
       <SectionText>
-        Hello! My name is Kaif, a forth year software engineering student at
+        Hello! My name is Kaif, a fourth year software engineering student at
         Carleton University. <br />
         But above this, I consider myself a builder. my passion lies in
         conceiving ideas and transforming them into reality. This is why
