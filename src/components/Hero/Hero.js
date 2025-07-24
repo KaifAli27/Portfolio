@@ -19,7 +19,7 @@ const Hero = (props) => (
       <Button
         onClick={() =>
           (window.location =
-            "https://drive.google.com/file/d/1pWgqcoOW9Y5hP2hdz7xxGZZYdTz-gjFl/view?usp=sharing")
+            "https://drive.google.com/file/d/1_IeWOmfk2x-c1udwxJ0YJ_nWxDSzoVW6/view?usp=sharing")
         }
       >
         View Resume
